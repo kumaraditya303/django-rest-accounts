@@ -1,5 +1,5 @@
-![Travis CI](https://img.shields.io/travis/com/kumaraditya303/Django-Accounts?label=Travis%20CI&logo=travis&style=flat-square)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkumaraditya303%2FDjango-Accounts&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+![Travis CI](https://img.shields.io/travis/com/kumaraditya303/django-rest-accounts?label=Travis%20CI&logo=travis&style=flat-square)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkumaraditya303%2Fdjango-rest-accounts&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 ![](https://img.shields.io/pypi/pyversions/djangorestaccounts?logo=Python&style=flat-square)
 ![](https://img.shields.io/pypi/dm/djangorestaccounts)
 
@@ -7,7 +7,7 @@
 Django Rest Accounts
 ===============
 
-Accounts is a Django app built on Django Rest Framework for easier account management for REST apps.
+ Django Rest Accounts is a Django app built on Django Rest Framework for easier account management for REST apps.
 
 Quick Start
 -----------
