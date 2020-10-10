@@ -24,7 +24,7 @@ INSTALLED_APPS = [
 - Include the accounts URLconf in your project urls.py like this::
 
 ```python
-path('accounts/', include('polls.urls')),
+path('accounts/', include('accounts.urls')),
 ```
 - In your settings.py set the 
 ```python
