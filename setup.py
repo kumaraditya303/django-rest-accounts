@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from accounts import __version__
 
 setup(
-    name="django-accounts",
+    name="djangorestaccounts",
     version=__version__,
     license = "MIT",
     author="Kumar Aditya",
@@ -10,7 +10,7 @@ setup(
     description="A reusable Django Accounts apps built on Django Rest Framework for fast REST development.",
     long_description=open("README.md", "r").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/kumaraditya303/Django-Accounts",
+    url="https://github.com/kumaraditya303/django-rest-accounts",
     packages=find_packages(),
     classifiers=[
         "Framework :: Django",
