@@ -6,7 +6,7 @@ setup(
     version=__version__,
     license = "MIT",
     author="Kumar Aditya",
-    author_email="@kumaraditya303",
+    author_email="rahuladitya303@gmail.com",
     description="A reusable Django Accounts apps built on Django Rest Framework for fast REST development.",
     long_description=open("README.md", "r").read(),
     long_description_content_type="text/markdown",
