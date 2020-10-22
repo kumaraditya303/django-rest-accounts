@@ -4,14 +4,14 @@ from accounts import __version__
 setup(
     name="djangorestaccounts",
     version=__version__,
-    license = "MIT",
+    license="MIT",
     author="Kumar Aditya",
     author_email="rahuladitya303@gmail.com",
-    description="A reusable Django Accounts apps built on Django Rest Framework for fast REST development.",
+    description="A reusable Django  Rest Accounts apps built on Django Rest Framework for fast REST development.",
     long_description=open("README.md", "r").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/kumaraditya303/django-rest-accounts",
-    packages=find_packages(),
+    packages=find_packages(exclude=['tests']),
     classifiers=[
         "Framework :: Django",
         "Programming Language :: Python :: 3.6",

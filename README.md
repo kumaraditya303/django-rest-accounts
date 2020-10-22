@@ -4,19 +4,19 @@
 ![](https://img.shields.io/pypi/dm/djangorestaccounts)
 ![](https://img.shields.io/codecov/c/github/kumaraditya303/django-rest-accounts?logo=codecov&style=flat-square)
 
-Django Rest Accounts
-===============
+# Django Rest Accounts
 
- Django Rest Accounts is a Django app built on Django Rest Framework for easier account management for REST apps.
+Django Rest Accounts is a Django app built on Django Rest Framework for easier account management for REST apps.
 
-Quick Start
------------
+## Quick Start
 
 - Add `accounts` to your INSTALLED_APPS like this::
 
 ```python
 INSTALLED_APPS = [
     ...,
+    'rest_framework',
+    'rest_framework.authtoken',
     "accounts",
 ]
 ```
@@ -26,7 +26,9 @@ INSTALLED_APPS = [
 ```python
 path('accounts/', include('accounts.urls')),
 ```
-- In your settings.py set the 
+
+- In your settings.py set the
+
 ```python
 AUTH_USER_MODEL = "accounts.User"
 ```
@@ -37,10 +39,10 @@ AUTH_USER_MODEL = "accounts.User"
 
 - URL Configuration
 
-| URLConf       |               |
-|:-------------:|:-------------:| 
-| LOGIN         | /login/       | 
-| REGISTER      | /register/    | 
-| LOGOUT        | /logout/      | 
+| URLConf  |            |
+| :------: | :--------: |
+|  LOGIN   |  /login/   |
+| REGISTER | /register/ |
+|  LOGOUT  |  /logout/  |
 
 # Project made and maintained by Kumar Aditya

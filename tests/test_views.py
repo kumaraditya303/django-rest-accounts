@@ -86,14 +86,17 @@ class UserViewTests(APITestCase):
         User = get_user_model()
         self.test_register()
         response = self.client.post(
-            reverse("login"), {"username": "test@test.com", "password": "foobar"}
+            reverse("login"), {"username": "test@test.com",
+                               "password": "foobar"}
         )
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(Token.objects.count(), 1)
-        self.assertEqual(Token.objects.get().key, User.objects.get().auth_token.key)
+        self.assertEqual(Token.objects.get().key,
+                         User.objects.get().auth_token.key)
         self.assertEqual(Token.objects.get().key, response.data["token"])
         response = self.client.post(
-            reverse("login"), {"username": "falsetest@test.com", "password": "foo"}
+            reverse("login"), {
+                "username": "falsetest@test.com", "password": "foo"}
         )
         self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
         self.assertNotEqual(Token.objects.count(), 2)
