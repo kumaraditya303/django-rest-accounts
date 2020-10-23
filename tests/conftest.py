@@ -1,11 +1,11 @@
 import os
-
-from django.conf import settings
-from django import setup
 from tempfile import mkdtemp
 
+from django import setup
+from django.conf import settings
 
-def pytest_configure(config):
+
+def pytest_configure():
     """
     Configuration for test.
     """

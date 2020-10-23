@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "djangorestaccounts"
+version = "0.1.2"
+description = "Django Accounts management, made easy!"
+authors = ["Kumar Aditya <rahuladitya303@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/kumaraditya303/django-rest-accounts"
+repository = "https://github.com/kumaraditya303/django-rest-accounts.git"
+classifiers = [
+    "Framework :: Django",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+]
+packages = [
+    { include = "accounts" }
+]
+include = ["LICENSE.md"]
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Django = "^3.1"
+djangorestframework = "^3.0"
+Pillow = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.1"
+pytest-django = "^4.1.0"
+pytest-cov = "^2.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

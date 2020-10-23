@@ -6,7 +6,7 @@
 
 # Django Rest Accounts
 
-Django Rest Accounts is a Django app built on Django Rest Framework for easier account management for REST apps.
+Django Rest Accounts is a Django app built on Django Rest Framework for easier account management for REST API.
 
 ## Quick Start
 
@@ -15,8 +15,8 @@ Django Rest Accounts is a Django app built on Django Rest Framework for easier a
 ```python
 INSTALLED_APPS = [
     ...,
-    'rest_framework',
-    'rest_framework.authtoken',
+    "rest_framework",
+    "rest_framework.authtoken",
     "accounts",
 ]
 ```

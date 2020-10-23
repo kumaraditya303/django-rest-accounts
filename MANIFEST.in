@@ -1,5 +1,0 @@
-include README.md
-include LICENSE.md
-graft tests
-global-exclude *.py[cod]
-global-exclude __pycache__
