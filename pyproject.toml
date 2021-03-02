@@ -24,7 +24,7 @@ include = ["LICENSE.md"]
 python = "^3.6"
 Django = "^3.1"
 djangorestframework = "^3.12"
-Pillow = "^8.0.1"
+Pillow = "^8.1.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.1"
