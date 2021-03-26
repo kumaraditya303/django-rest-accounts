@@ -69,7 +69,7 @@ bcrypt = ["bcrypt"]
 
 [[package]]
 name = "djangorestframework"
-version = "3.12.2"
+version = "3.12.3"
 description = "Web APIs for Django, made easy."
 category = "main"
 optional = false
@@ -310,7 +310,8 @@ django = [
     {file = "Django-3.1.4.tar.gz", hash = "sha256:edb10b5c45e7e9c0fb1dc00b76ec7449aca258a39ffd613dbd078c51d19c9f03"},
 ]
 djangorestframework = [
-    {file = "djangorestframework-3.12.2-py3-none-any.whl", hash = "sha256:0209bafcb7b5010fdfec784034f059d512256424de2a0f084cb82b096d6dd6a7"},
+    {file = "djangorestframework-3.12.3-py3-none-any.whl", hash = "sha256:ef043474687307d4123dc47fecd346594bb98e95b030225ee64bc417578403a7"},
+    {file = "djangorestframework-3.12.3.tar.gz", hash = "sha256:2fbbd5c28a1aaa1ad0b721b29e916797fc9aba9f9b3e7619da11c674880fc7aa"},
 ]
 importlib-metadata = [
     {file = "importlib_metadata-2.0.0-py2.py3-none-any.whl", hash = "sha256:cefa1a2f919b866c5beb7c9f7b0ebb4061f30a8a9bf16d609b000e2dfaceb9c3"},
