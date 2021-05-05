@@ -27,7 +27,7 @@ djangorestframework = "^3.12"
 Pillow = "^8.0.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.1"
+pytest = "^6.2.4"
 pytest-django = "^4.1.0"
 pytest-cov = "^2.10.1"
 
